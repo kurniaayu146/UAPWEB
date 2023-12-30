@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAP Praktikum WEB</title>
+  </head>
+  <body>
+    <style>
+      p {
+        color: rgb(107, 5, 249);
+        font-size: medium;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      label {
+        color: rgb(96, 12, 12);
+        font-style: unset;
+      }
+
+      table {
+        color: rgb(4, 4, 4);
+      }
+    </style>
+    <p>Barang Yang Dijual</p>
+    <tr>
+      <label for="Id barang"
+        >Id barang yang dibeli<input type="int" id="id"
+      /></label>
+    </tr>
+    <label for="total"
+      >Banyaknya<input type="jumlah" id="Jumlah barang"
+    /></label>
+
+    <table>
+      <tr>
+        <td>code</td>
+        <td>nama barang</td>
+        <td>input</td>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>tepung</td>
+        <td>2000</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>gula</td>
+        <td>3000</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>beras</td>
+        <td>50000</td>
+      </tr>
+    </table>
+  </body>
+  <script>
+    document.getElementById("Id barang").innerHTML = "Id barang";
+    document.getElementById("Jumlah barang").innerHTML = "Jumlah barang";
+  </script>
+</html>
